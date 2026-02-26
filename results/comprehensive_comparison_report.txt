@@ -1,0 +1,64 @@
+======================================================================
+COMPREHENSIVE POSITIONAL ENCODING COMPARISON REPORT
+======================================================================
+
+MODELS COMPARED:
+  1. Learned
+  2. No Position
+  3. Sinusoidal
+
+======================================================================
+PERFORMANCE BY DOCUMENT LENGTH
+======================================================================
+
+Length      Learned        No Position    Sinusoidal     
+----------------------------------------------------------------------
+2-5         1.0000         1.0000         1.0000         
+6-10        1.0000         1.0000         0.7778         
+11-15       0.6000         0.4857         0.4667         
+16-20       0.1684         -0.1947         -0.0211         
+21-25       -0.1467         0.0033         -0.0033         
+
+======================================================================
+DETAILED ANALYSIS: LONG DOCUMENTS (21-25 pages)
+======================================================================
+
+
+Learned:
+----------------------------------------
+  Final τ: -0.1467
+  Error rate: 88.9%
+  Avg error distance: 8.41 positions
+  First 5 positions accuracy: 22.0%
+  Confidence when correct: 0.888
+  Confidence when incorrect: 0.807
+
+No Position:
+----------------------------------------
+  Final τ: 0.0033
+  Error rate: 91.9%
+  Avg error distance: 8.74 positions
+  First 5 positions accuracy: 26.0%
+  Confidence when correct: 0.903
+  Confidence when incorrect: 0.816
+
+Sinusoidal:
+----------------------------------------
+  Final τ: -0.0033
+  Error rate: 93.2%
+  Avg error distance: 7.79 positions
+  First 5 positions accuracy: 16.0%
+  Confidence when correct: 0.644
+  Confidence when incorrect: 0.495
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+1. Best performer on long docs: No Position (τ = 0.0033)
+2. Worst performer on long docs: Learned (τ = -0.1467)
+3. Improvement over learned encodings: Δτ = +0.1500
+
+======================================================================
+END OF REPORT
+======================================================================

@@ -1,0 +1,83 @@
+baseline_random: models/random_baseline.py
+2025-10-21 16:58:33 | INFO | 2-5             ( 2- 5 pages): Target Tau = -0.013
+2025-10-21 16:58:35 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.013
+2025-10-21 16:58:36 | INFO | 11-15           (11-15 pages): Target Tau = 0.006
+2025-10-21 16:58:36 | INFO | 16-20           (16-20 pages): Target Tau = -0.006
+2025-10-21 16:58:37 | INFO | 21-25           (21-25 pages): Target Tau = 0.022
+
+baseline_greedy_nearest_neighbour: models/greedy_nearest_neighbour.py
+2025-10-21 16:58:33 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.1630
+2025-10-21 16:58:35 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.1466
+2025-10-21 16:58:36 | INFO | 11-15           (11-15 pages): Target Tau = 0.1278
+2025-10-21 16:58:36 | INFO | 16-20           (16-20 pages): Target Tau = 0.0419
+2025-10-21 16:58:37 | INFO | 21-25           (21-25 pages): Target Tau = 0.0638
+
+TSP_similarity: models/tsp_similarity.py
+2025-10-21 16:58:33 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.113
+2025-10-21 16:58:35 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.147
+2025-10-21 16:58:36 | INFO | 11-15           (11-15 pages): Target Tau = 0.111
+2025-10-21 16:58:36 | INFO | 16-20           (16-20 pages): Target Tau = 0.093
+2025-10-21 16:58:37 | INFO | 21-25           (21-25 pages): Target Tau = 0.022
+
+lstm: models/bilstm_position.py
+2025-10-23 16:00:10 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.8588
+2025-10-23 16:00:10 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.8358
+2025-10-23 16:00:10 | INFO | 11-15           (11-15 pages): Target Tau = 0.6172
+2025-10-23 16:00:10 | INFO | 16-20           (16-20 pages): Target Tau = 0.3920
+2025-10-23 16:00:10 | INFO | 21-25           (21-25 pages): Target Tau = 0.2744
+
+pointer_mlp: models/pointer_mlp.py
+2025-10-24 15:00:22 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.8247
+2025-10-24 15:00:22 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.8369
+2025-10-24 15:00:22 | INFO | 11-15           (11-15 pages): Target Tau = 0.6050
+2025-10-24 15:00:22 | INFO | 16-20           (16-20 pages): Target Tau = 0.3618
+2025-10-24 15:00:22 | INFO | 21-25           (21-25 pages): Target Tau = 0.2194
+
+pointer_lstm: models/pointer_lstm.py
+2025-10-21 16:39:59 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.8894
+2025-10-21 16:39:59 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.8602
+2025-10-21 16:39:59 | INFO | 11-15           (11-15 pages): Target Tau = 0.6534
+2025-10-21 16:39:59 | INFO | 16-20           (16-20 pages): Target Tau = 0.4604
+2025-10-21 16:39:59 | INFO | 21-25           (21-25 pages): Target Tau = 0.3620
+
+seq2seq_transformer: models/seq2seq_transformer.py
+2025-10-24 15:24:02 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.9183
+2025-10-24 15:24:08 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.7874
+2025-10-24 15:24:10 | INFO | 11-15           (11-15 pages): Target Tau = 0.3426
+2025-10-24 15:24:10 | INFO | 16-20           (16-20 pages): Target Tau = 0.0938
+2025-10-24 15:24:11 | INFO | 21-25           (21-25 pages): Target Tau = 0.0144
+
+seq2seq_transformer_no_positional_encodings: models/seq2seq_transformer_no_pos.py
+2025-10-24 15:24:02 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.8769
+2025-10-24 15:24:08 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.7698
+2025-10-24 15:24:10 | INFO | 11-15           (11-15 pages): Target Tau = 0.3686
+2025-10-24 15:24:10 | INFO | 16-20           (16-20 pages): Target Tau = 0.0510
+2025-10-24 15:24:11 | INFO | 21-25           (21-25 pages): Target Tau = 0.0260
+
+seq2seq_transformer_sinusoidal: models/seq2seq_transformer_sinusoidal.py
+2025-10-24 15:24:02 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.8930
+2025-10-24 15:24:08 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.7627
+2025-10-24 15:24:10 | INFO | 11-15           (11-15 pages): Target Tau = 0.3962
+2025-10-24 15:24:10 | INFO | 16-20           (16-20 pages): Target Tau = 0.1971
+2025-10-24 15:24:11 | INFO | 21-25           (21-25 pages): Target Tau = 0.0614
+
+transformer_pairwise_ranking: models/transformer_pairwise_ranking.py
+2025-10-24 15:24:02 | INFO | 2-5             ( 2- 5 pages): Target Tau = 0.922
+2025-10-24 15:24:08 | INFO | 6-10            ( 6-10 pages): Target Tau = 0.860
+2025-10-24 15:24:10 | INFO | 11-15           (11-15 pages): Target Tau = 0.509
+2025-10-24 15:24:10 | INFO | 16-20           (16-20 pages): Target Tau = 0.300
+2025-10-24 15:24:11 | INFO | 21-25           (21-25 pages): Target Tau = 0.175
+
+specialized_pairwise_ranking_direct: models/specialized_pairwise_ranking_direct.py
+2025-10-01 16:32:49 | INFO | tiny_2_5        ( 2- 5 pages): Target Tau = 0.9531
+2025-10-01 16:32:49 | INFO | small_6_10      ( 6-10 pages): Target Tau = 0.8994
+2025-10-01 16:32:49 | INFO | medium_11_15    (11-15 pages): Target Tau = 0.7225
+2025-10-01 16:32:49 | INFO | large_16_20     (16-20 pages): Target Tau = 0.5146
+2025-10-01 16:32:49 | INFO | xlarge_21_25    (21-25 pages): Target Tau = 0.3799
+
+specialized_pairwise_ranking_curriculum: models/specialized_pairwise_ranking_curriculum.py
+2025-10-01 09:25:38 | INFO | tiny_2_5        ( 2- 5 pages): Target Tau = 0.9147
+2025-10-01 09:25:38 | INFO | small_6_10      ( 6-10 pages): Target Tau = 0.8820
+2025-10-01 09:25:38 | INFO | medium_11_15    (11-15 pages): Target Tau = 0.6625
+2025-10-01 09:25:38 | INFO | large_16_20     (16-20 pages): Target Tau = 0.3791
+2025-10-01 09:25:38 | INFO | xlarge_21_25    (21-25 pages): Target Tau = 0.2332
