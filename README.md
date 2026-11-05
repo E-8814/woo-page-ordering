@@ -1,5 +1,7 @@
 # Learning Page Order in Shuffled WOO Releases
 
+> **Note (5 November 2026):** We found an error in how the results were evaluated. A corrected version is on the way.
+
 [![arXiv](https://img.shields.io/badge/arXiv-2602.11040-b31b1b.svg)](https://arxiv.org/abs/2602.11040)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 [![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue.svg)](https://huggingface.co/datasets/E-8814/woo-page-ordering)
